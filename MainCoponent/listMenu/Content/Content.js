@@ -2,7 +2,7 @@ import React, { Component } from 'React';
 import { View, Text, ScrollView, TouchableOpacity, Dimensions, Image} from 'react-native';
 import styles from './ContentStyle'
 import { connect } from 'react-redux';
-import {getMenus, getActiveMenu,addOrder,removeOrder,getSubTotalAndQty,scrollFooter,endScrollFooter} from '../../../Src/Actions'
+import {loadMenuState, getMenus, getActiveMenu,addOrder,removeOrder,getSubTotalAndQty,scrollFooter,endScrollFooter} from '../../../Src/Actions'
 import Axios from 'axios'
 import {Icon} from 'native-base'
 import AntDesign from 'react-native-vector-icons/dist/AntDesign'
@@ -40,6 +40,11 @@ class Content extends Component {
         
         Axios.get(`${this.props.ipAdress}menus`).then((res)=>{
             this.props.getMenus(res.data)
+        }).then(()=>{
+            setTimeout(()=>{
+                this.props.loadMenuState()
+            },3000)
+            
         })
 
         var date = new Date().getDate(); //Current Date
@@ -65,6 +70,28 @@ class Content extends Component {
         receivedData == (this.state.screenWidth*0) ? this.props.getActiveMenu(0): null
         
         
+    }
+
+    currency=(x)=>{
+        let a = x //12.345.678.910
+        let b =a
+        let c =[]
+        let d =''
+        while (b>=1000) {
+            c = [b%1000,...c]
+            b = Math.floor(b/1000)
+        }
+        c = [b,...c]
+        if(c.length==1){
+            d = d+`${c[0]}`
+        }else{
+            d = d+`${c[0]}`
+        for(let i=1;i<c.length;i++){
+            c[i]<10?  d=d+`.00${c[i]}`:
+            c[i]<100? d=d+`.0${c[i]}`:
+            d = d+`.${c[i]}`
+        }}
+        return d
     }
 
     render() {
@@ -129,7 +156,7 @@ class Content extends Component {
                             })}
                                 <Image style={styles.imageMenu} source={{uri:item.images}} />
                                 <Text style={styles.menuName} >{item.name}</Text>
-                                <Text style={styles.menuPrice} >{item.price}</Text>
+                                <Text style={styles.menuPrice} >Rp {this.currency(item.price)}</Text>
                             </View>
                             <TouchableOpacity 
                             onPress={()=>{
@@ -190,7 +217,7 @@ class Content extends Component {
                             })}
                                 <Image style={styles.imageMenu} source={{uri:item.images}} />
                                 <Text style={styles.menuName} >{item.name}</Text>
-                                <Text style={styles.menuPrice} >{item.price}</Text>
+                                <Text style={styles.menuPrice} >Rp {this.currency(item.price)}</Text>
                             </View>
                             <TouchableOpacity 
                             onPress={()=>{
@@ -252,7 +279,7 @@ class Content extends Component {
                             })}
                                 <Image style={styles.imageMenu} source={{uri:item.images}} />
                                 <Text style={styles.menuName} >{item.name}</Text>
-                                <Text style={styles.menuPrice} >{item.price}</Text>
+                                <Text style={styles.menuPrice} >Rp {this.currency(item.price)}</Text>
                             </View>
                             <TouchableOpacity
                             onPress={()=>{
@@ -300,5 +327,5 @@ Storage = (state) => {
 
 
 export default connect(Storage, {
-    getMenus, getActiveMenu, addOrder, removeOrder, getSubTotalAndQty, scrollFooter, endScrollFooter
+    loadMenuState, getMenus, getActiveMenu, addOrder, removeOrder, getSubTotalAndQty, scrollFooter, endScrollFooter
 })(Content);

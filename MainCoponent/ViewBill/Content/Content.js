@@ -84,6 +84,28 @@ class Content extends Component {
         return receivedData >= (this.state.screenWidth/14) ? 
         true : false
     }
+
+    currency=(x)=>{
+        let a = x //12.345.678.910
+        let b =a
+        let c =[]
+        let d =''
+        while (b>=1000) {
+            c = [b%1000,...c]
+            b = Math.floor(b/1000)
+        }
+        c = [b,...c]
+        if(c.length==1){
+            d = d+`${c[0]}`
+        }else{
+            d = d+`${c[0]}`
+        for(let i=1;i<c.length;i++){
+            c[i]<10?  d=d+`.00${c[i]}`:
+            c[i]<100? d=d+`.0${c[i]}`:
+            d = d+`.${c[i]}`
+        }}
+        return d
+    }
     
     render() {
 
@@ -145,9 +167,10 @@ class Content extends Component {
                                    scrollEnabled={index.status==0?false:true}
                                    pagingEnabled={true}
                                    horizontal={true}
+                                   decelerationRate={0.2}
                                    onScrollEndDrag={(value)=>{
                                     let data = value.nativeEvent.contentOffset.x
-                                    data>=this.state.screenWidth/4?
+                                    data>=this.state.screenWidth/2?
                                     this.props.dismissOrderFilter(index.id,index.status):null
                                    }}
                                    scrollEventThrottle={10}
@@ -163,7 +186,7 @@ class Content extends Component {
                                             <Text style={styles.orderName} >{
                                                 this.props.menus[index.menuID-1].name
                                             }</Text>
-                                            <Text style={styles.orderPrice} >Total : {index.price*index.qty}</Text>
+                                            <Text style={styles.orderPrice} >Total : Rp {this.currency(index.price*index.qty)}</Text>
                                         </View>
                                         <View style={styles.orderButtonContainer}>
                                             <View style={styles.orderMinusPlusContainer} >
@@ -205,7 +228,7 @@ class Content extends Component {
                                 </View>
                                 <View style={styles.orderNamePriceContainer} >
                                     <Text style={styles.orderName} >{index.name}</Text>
-                                    <Text style={styles.orderPrice} >{index.price}</Text>
+                                    <Text style={styles.orderPrice} >Rp {this.currency(index.price)}</Text>
                                 </View>
                                 {this.state.orderTrigger!=0? null:(
                                 <View style={styles.orderButtonContainer}>
@@ -262,13 +285,25 @@ class Content extends Component {
                     ))}
                         </View>
                 </ScrollView>
-                {this.props.order.length<=0?null:
+                {this.props.order.length<=1&&this.state.orderTrigger==0?null:
                 this.state.orderTrigger==0?
                 (
                 <TouchableOpacity
                 onPress={()=>{
-                    this.postOrder(this.props.order)
-                    this.props.clearOrder()
+                    this.setState({orderTrigger:7})
+                    this.orderTimer=setInterval(() => {
+                        this.setState({orderTrigger:this.state.orderTrigger-1})
+                        this.state.orderTrigger==0?
+                        (
+                            this.postOrder(this.props.order),
+                            this.props.clearOrder(),
+                            this.setState({orderTrigger:0}),
+                            clearInterval(this.orderTimer)
+                        ):null
+                    }, 1000);
+
+                    
+                    
                 }}
                 style={styles.orderAll}
                 >

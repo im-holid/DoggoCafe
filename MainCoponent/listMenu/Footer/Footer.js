@@ -6,7 +6,6 @@ import Axios from 'axios'
 import {Icon} from 'native-base'
 import Ionicons from 'react-native-vector-icons/dist/Ionicons'
 import styles from './FooterStyle';
-import { NavigationEvents } from 'react-navigation';
  
 
 
@@ -58,6 +57,27 @@ class Footer extends Component {
     stopTimes=()=>{
         this.props.stopTimer()
     }
+    currency=(x)=>{
+        let a = x //12.345.678.910
+        let b =a
+        let c =[]
+        let d =''
+        while (b>=1000) {
+            c = [b%1000,...c]
+            b = Math.floor(b/1000)
+        }
+        c = [b,...c]
+        if(c.length==1){
+            d = d+`${c[0]}`
+        }else{
+            d = d+`${c[0]}`
+        for(let i=1;i<c.length;i++){
+            c[i]<10?  d=d+`.00${c[i]}`:
+            c[i]<100? d=d+`.0${c[i]}`:
+            d = d+`.${c[i]}`
+        }}
+        return d
+    }
     
    
     render() {
@@ -74,7 +94,9 @@ class Footer extends Component {
                 }}
                 style={styles.footerContainer} >
                         
-                    <Text style={styles.items} >{this.props.transaction.totalQty} Items | Est + tax| Rp {this.props.transaction.subTotal+(this.props.transaction.subTotal*this.props.transaction.tax)}</Text>
+                    <Text style={styles.items} >{this.props.transaction.totalQty} Items | Est + Tax| Rp {
+                        this.currency(this.props.transaction.subTotal+(this.props.transaction.subTotal*this.props.transaction.tax))
+                        }</Text>
                     <Ionicons name='md-basket' style={styles.icon} />
                 </TouchableOpacity>
             ):null:

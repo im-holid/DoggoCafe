@@ -3,8 +3,10 @@ import {POST_TRANSACTION_TO_DB} from '../Actions/type'
 const holder={
     id          :   0,
     subTotal    :   0,
+    finishedTime:   '',
     tax         :   0,
     total       :   0,
+    isPaid      :   0,
 }
 
 export default (state=holder , action)=>{

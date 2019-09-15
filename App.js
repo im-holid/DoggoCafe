@@ -9,11 +9,12 @@ import reducers from './Src/Reducers'
 import Orders from './MainCoponent/Home/Orders';
 import ListMenus from './MainCoponent/listMenu/ListMenus';
 import ViewBill from './MainCoponent/ViewBill/ViewBills'
+import FinishPage from './MainCoponent/FinishPage/FinishPage';
 
 
 const MainNavigator = createAppContainer(createStackNavigator({
     Home :{
-      screen : ListMenus,
+      screen : Orders,
       navigationOptions :{
         header : null
       }
@@ -29,7 +30,13 @@ const MainNavigator = createAppContainer(createStackNavigator({
       navigationOptions :{
         header : null
       }
-  },
+    },
+    FinishPage :{
+      screen : FinishPage,
+      navigationOptions :{
+        header : null
+      }
+    },
 
 }))
 

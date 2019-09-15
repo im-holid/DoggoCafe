@@ -5,8 +5,8 @@ const styles = StyleSheet.create({
     footerContainer : {
         position:'absolute',
         bottom:10,
-        left:70,
-        right:70,
+        left:30,
+        right:30,
         paddingHorizontal:10,
         paddingVertical : 5,
         flexDirection:'row',
