@@ -1,0 +1,212 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:1:1-30:12
+MERGED from [:react-native-gesture-handler] /var/www/html/fakefinaltest/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-vector-icons] /var/www/html/fakefinaltest/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.60.5] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/640484423362f953f4769387bee29b67/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r245459] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/d050821e1820bbdd23ce845094a28d30/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/8a8ed1b01d3a3bb0ae61711548e1f55c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/a3fe12f374268d6300dc523c6f47350e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/b198a9a3dc8309f814f0f64e4289f198/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/15b08f9f1f1687e86772c5ba2b13b584/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/7c4276db2d6a6df76eaac6e135cd6e7c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/fc416c0e35960ee96c6164c0360b6783/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/bc47c17f9d0e705b3c5f457ea45e13ee/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/e5c80033e7a13d859cf27ca1c9d7fca2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/508b8532c63ec63f7e4e6498cd2aecf6/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.fragment:fragment:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/cbd5067dc9bafca567896ba0c1d815b2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/865fb3a7acb0ac45c7cecaecf8fec8bf/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/c3a3a3cc8f73e69ed8838bc53d16efe2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/3675a1242d5a66fb0818ee8b90f3615a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/2e48a32e178951d40c90fa91cc4b02bd/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/0fc94603c7ec91fc235af5cc818f302d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/0ce7d480914a920822d167f6ad06dd89/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/3e621ed752d0b4f9d3374039ab6a0636/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/f8e68395829b45b4ae1da3ef161f0e92/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/6f783b1c3e9d45f47bab5da2dfda0b84/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/72eae83ac625649e4533b438388bce7a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/7fc7ba8a35c47872f4c3925d94eedb13/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/5459dc69d0c872caa4865fffabbacd92/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/17cf3ee2554c669465211b0a4bd9e683/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/538d92f12400bb12f6c24f5d23538016/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/00d0e42efd2f2eb8d8d1b4db5078e8a2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/4ddc3e805472d5073f8c0515d28095d9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/c31bf6718e83ebe61c29fae556fe5c17/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/efecb80946495d4c534af07950d975c5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/7a6dca80497a9e67b7f02cae308b8aa8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/ac16b478e04f41f77eb8453e70ac1c05/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/5d6dc9daf7f70ef70d6f943a02f5af25/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/4920e215ea686d319c93df4f9680a49b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/c757df97556b9fdae8c8e7e0154b8d6a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/8920058199af0aedf9c7244fc592c748/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/21c740377d7d6bf15be4d11b1d81570a/AndroidManifest.xml:2:1-9:12
+INJECTED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:1:1-30:12
+INJECTED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:1:1-30:12
+	package
+		ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:2:3-31
+		INJECTED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml
+		INJECTED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml
+		ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:1:1-30:12
+		INJECTED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml
+		ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:1:1-30:12
+		INJECTED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:6:5-28:19
+MERGED from [com.facebook.react:react-native:0.60.5] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/640484423362f953f4769387bee29b67/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.60.5] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/640484423362f953f4769387bee29b67/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/508b8532c63ec63f7e4e6498cd2aecf6/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/508b8532c63ec63f7e4e6498cd2aecf6/AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.0.1] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/17cf3ee2554c669465211b0a4bd9e683/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/17cf3ee2554c669465211b0a4bd9e683/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/538d92f12400bb12f6c24f5d23538016/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/538d92f12400bb12f6c24f5d23538016/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/17cf3ee2554c669465211b0a4bd9e683/AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:8:7-39
+	android:roundIcon
+		ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:10:7-52
+	android:icon
+		ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:9:7-41
+	android:allowBackup
+		ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:name
+		ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:7:7-38
+activity#com.fixeddoggokost.MainActivity
+ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:13:7-22:18
+	android:label
+		ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:15:9-41
+	android:windowSoftInputMode
+		ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:17:9-51
+	android:configChanges
+		ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:18:9-21:25
+action#android.intent.action.MAIN
+ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:19:13-65
+	android:name
+		ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:19:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:20:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:23:7-84
+	android:name
+		ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:23:17-81
+meta-data#com.google.android.geo.API_KEY
+ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:25:7-27:64
+	android:value
+		ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:27:7-62
+	android:name
+		ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml:26:7-52
+uses-sdk
+INJECTED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml
+INJECTED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-gesture-handler] /var/www/html/fakefinaltest/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /var/www/html/fakefinaltest/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /var/www/html/fakefinaltest/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /var/www/html/fakefinaltest/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.60.5] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/640484423362f953f4769387bee29b67/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.60.5] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/640484423362f953f4769387bee29b67/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/d050821e1820bbdd23ce845094a28d30/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/d050821e1820bbdd23ce845094a28d30/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/8a8ed1b01d3a3bb0ae61711548e1f55c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/8a8ed1b01d3a3bb0ae61711548e1f55c/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/a3fe12f374268d6300dc523c6f47350e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/a3fe12f374268d6300dc523c6f47350e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/b198a9a3dc8309f814f0f64e4289f198/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/b198a9a3dc8309f814f0f64e4289f198/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/15b08f9f1f1687e86772c5ba2b13b584/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/15b08f9f1f1687e86772c5ba2b13b584/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/7c4276db2d6a6df76eaac6e135cd6e7c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/7c4276db2d6a6df76eaac6e135cd6e7c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/fc416c0e35960ee96c6164c0360b6783/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/fc416c0e35960ee96c6164c0360b6783/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/bc47c17f9d0e705b3c5f457ea45e13ee/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/bc47c17f9d0e705b3c5f457ea45e13ee/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/e5c80033e7a13d859cf27ca1c9d7fca2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/e5c80033e7a13d859cf27ca1c9d7fca2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/508b8532c63ec63f7e4e6498cd2aecf6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/508b8532c63ec63f7e4e6498cd2aecf6/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.fragment:fragment:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/cbd5067dc9bafca567896ba0c1d815b2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/cbd5067dc9bafca567896ba0c1d815b2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/865fb3a7acb0ac45c7cecaecf8fec8bf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/865fb3a7acb0ac45c7cecaecf8fec8bf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/c3a3a3cc8f73e69ed8838bc53d16efe2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/c3a3a3cc8f73e69ed8838bc53d16efe2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/3675a1242d5a66fb0818ee8b90f3615a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/3675a1242d5a66fb0818ee8b90f3615a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/2e48a32e178951d40c90fa91cc4b02bd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/2e48a32e178951d40c90fa91cc4b02bd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/0fc94603c7ec91fc235af5cc818f302d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/0fc94603c7ec91fc235af5cc818f302d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/0ce7d480914a920822d167f6ad06dd89/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/0ce7d480914a920822d167f6ad06dd89/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/3e621ed752d0b4f9d3374039ab6a0636/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/3e621ed752d0b4f9d3374039ab6a0636/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/f8e68395829b45b4ae1da3ef161f0e92/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/f8e68395829b45b4ae1da3ef161f0e92/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/6f783b1c3e9d45f47bab5da2dfda0b84/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/6f783b1c3e9d45f47bab5da2dfda0b84/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/72eae83ac625649e4533b438388bce7a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/72eae83ac625649e4533b438388bce7a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/7fc7ba8a35c47872f4c3925d94eedb13/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/7fc7ba8a35c47872f4c3925d94eedb13/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/5459dc69d0c872caa4865fffabbacd92/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/5459dc69d0c872caa4865fffabbacd92/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/17cf3ee2554c669465211b0a4bd9e683/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/17cf3ee2554c669465211b0a4bd9e683/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/538d92f12400bb12f6c24f5d23538016/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/538d92f12400bb12f6c24f5d23538016/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/00d0e42efd2f2eb8d8d1b4db5078e8a2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/00d0e42efd2f2eb8d8d1b4db5078e8a2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/4ddc3e805472d5073f8c0515d28095d9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/4ddc3e805472d5073f8c0515d28095d9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/c31bf6718e83ebe61c29fae556fe5c17/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/c31bf6718e83ebe61c29fae556fe5c17/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/efecb80946495d4c534af07950d975c5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/efecb80946495d4c534af07950d975c5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/7a6dca80497a9e67b7f02cae308b8aa8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/7a6dca80497a9e67b7f02cae308b8aa8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/ac16b478e04f41f77eb8453e70ac1c05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/ac16b478e04f41f77eb8453e70ac1c05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/5d6dc9daf7f70ef70d6f943a02f5af25/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/5d6dc9daf7f70ef70d6f943a02f5af25/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/4920e215ea686d319c93df4f9680a49b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/4920e215ea686d319c93df4f9680a49b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/c757df97556b9fdae8c8e7e0154b8d6a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/c757df97556b9fdae8c8e7e0154b8d6a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/8920058199af0aedf9c7244fc592c748/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/8920058199af0aedf9c7244fc592c748/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/21c740377d7d6bf15be4d11b1d81570a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/gigapudding/.gradle/caches/transforms-2/files-2.1/21c740377d7d6bf15be4d11b1d81570a/AndroidManifest.xml:5:5-7:41
+INJECTED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml
+INJECTED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml
+		ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml
+		INJECTED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml
+		ADDED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml
+		INJECTED from /var/www/html/fakefinaltest/android/app/src/main/AndroidManifest.xml

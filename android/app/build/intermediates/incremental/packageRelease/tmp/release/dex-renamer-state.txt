@@ -1,0 +1,4 @@
+#Sun Sep 15 08:32:19 WIB 2019
+base.0=/var/www/html/fakefinaltest/android/app/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex
