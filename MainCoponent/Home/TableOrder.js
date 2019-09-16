@@ -8,8 +8,22 @@ import { ScrollView } from 'react-native-gesture-handler';
 
 
 class TableOrder extends Component{
+    constructor(props){
+        super(props)
+        this.state={
+            trigger:0
+        }
+    }
+
+    firstInterval=()=>{
+        this.setState({trigger:5})
+        interval=setTimeout(() => {
+            this.setState({trigger:0})
+        }, 5000);
+    }
     
     render(){
+        
   
         return(
             <View style={styles.logo}>
@@ -21,20 +35,39 @@ class TableOrder extends Component{
                             <Text style={styles.textHeader} >Doggo Cafee</Text>
                         </View>
                         <View style={styles.bodyContainer} >
+                            <Text style={[styles.textTableNumber,{fontSize:13,color:'red'}]}>{this.state.trigger==0?
+                            null : 'Cannot empty, zero, or more than 20'
+                            }</Text>
                             <Text style={styles.textTableNumber}>Table Number</Text>
                             <TextInput 
+                            
                             keyboardType='number-pad'
                             placeholder='0'
+                            placeholderTextColor='#ad8925'
                             style={styles.inputOrder} 
                             onChangeText={(text)=>{
                                 this.props.tableOrder(text)
+                                this.setState({trigger:0})
                             }} />
                             <TouchableOpacity 
                             onPress={()=>{
+                                (
+                                    this.props.tableNumber.number==0||this.props.tableNumber.number==null||
+                                    this.props.tableNumber.number>20||
+                                    this.props.tableNumber.number<=0)?
+                                    this.firstInterval():
                                 this.props.navigation.navigate('ListMenus')
                             }}
                             style={styles.inputSubmit}>
-                                <Text>Submit</Text>
+                                <Text
+                                style={{
+                                color : '#ad8925',
+                                fontWeight : 'bold',
+                                textShadowColor: 'rgba(61, 48, 13, 0.2)',
+                                textShadowOffset: {width: -1, height: 1},
+                                textShadowRadius: 10
+                                }}
+                                >Submit</Text>
                             </TouchableOpacity>
                         </View>
                     </View>

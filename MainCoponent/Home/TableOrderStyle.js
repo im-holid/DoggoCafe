@@ -3,6 +3,7 @@ import {StyleSheet} from 'react-native';
 const styles = StyleSheet.create({
     logo : {
         flex : 1,
+        backgroundColor:'#140d06',
     },
             container : {
                 flex:1,
@@ -18,9 +19,12 @@ const styles = StyleSheet.create({
                                 height :100
                             },
                             textHeader : {
-                                fontSize : 35,
-                                color : '#979797',
-                                fontWeight : 'bold'
+                                fontSize : 25,
+                                color : '#ad8925',
+                                fontWeight : 'bold',
+                                textShadowColor: 'rgba(61, 48, 13, 0.2)',
+                                textShadowOffset: {width: -1, height: 1},
+                                textShadowRadius: 10
                             },
                     bodyContainer : {
                         flex:1,
@@ -29,11 +33,19 @@ const styles = StyleSheet.create({
                         paddingTop : 50
                     },
                             textTableNumber:{
-                              fontSize : 15,
-                              color :'#979797',
-                              opacity : 0.8
+                                fontSize:17,
+                                color : '#ad8925',
+                                fontWeight : 'bold',
+                                textShadowColor: 'rgba(61, 48, 13, 0.2)',
+                                textShadowOffset: {width: -1, height: 1},
+                                textShadowRadius: 10
                             },
                             inputOrder:{
+                                color : '#ad8925',
+                                fontWeight : 'bold',
+                                textShadowColor: 'rgba(61, 48, 13, 0.2)',
+                                textShadowOffset: {width: -1, height: 1},
+                                textShadowRadius: 10,
                                 borderBottomWidth : 1,
                                 borderBottomColor : '#322110',
                                 marginBottom : 10,

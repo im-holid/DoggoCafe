@@ -1,6 +1,7 @@
 import {combineReducers} from 'redux';
 
 import ipAdress from './LOCALIP'
+import loadingState from './loadingState'
 
 import setTimerReducer from './setTimerReducer';
 import tableNumberReducer from './tableNumberReducer';
@@ -29,6 +30,7 @@ import updateOrderStatusReducer from './updateOrderStatusReducer';
 
 export default combineReducers({
     ipAdress            :ipAdress,
+    loadingState        :loadingState,
     //Times spent and Table's Number
     times               :setTimerReducer,
     tableNumber         :tableNumberReducer,
