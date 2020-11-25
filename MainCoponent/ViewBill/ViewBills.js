@@ -23,7 +23,7 @@ class ViewBill extends Component{
                 this.props.orderByTrans(res.data)
                 
             })
-        }, 1000);
+        }, 2000);
     }
 
     timer=()=>{
